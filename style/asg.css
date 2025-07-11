@@ -270,14 +270,14 @@ li a {
 /* section-5 styles */
 
 .sec-5 {
-      display: flex;
+    display: flex;
     justify-content: space-between;
-    gap:100px;
-    align-items: flex-start;
-    margin: 90px 150px 14px 150px;
+    gap:80px;
+    align-items: center;
+    margin: 90px 0 90px 150px;
     padding-top: 71px;
-    padding-bottom: 71px;
-    
+    padding-bottom: 71px; 
+   
 }
 
 .sec-5-title {
@@ -289,7 +289,8 @@ li a {
 .input-box {
     padding: 20px 32px;
     margin-top: 0;
-    width:490px;
+    width:100%;
+    max-width: 490px;
 }
 
 .form-name {
