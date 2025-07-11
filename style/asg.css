@@ -271,9 +271,9 @@ li a {
 
 .sec-5 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap:100px;
-    align-items: center;
+    align-items: flex-start;
     margin: 90px 150px 14px 150px;
     padding-top: 71px;
     padding-bottom: 71px;
