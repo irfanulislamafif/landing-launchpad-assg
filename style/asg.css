@@ -131,7 +131,7 @@ li a {
 
 .active-focus {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 0%;
     padding-top: 0%;
     
@@ -153,4 +153,70 @@ li a {
      margin-top: 0%;
      align-items: center;
      text-align: center;
+}
+/* section 3 style */
+.sec-3 {
+    margin: 137px 150px;
+    font-family: "Inter", sans-serif;
+   
+    
+}
+
+
+
+.sec-3-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.rate-card {
+    border-radius: 14px;
+    box-shadow: 5px 5px 5px 5px #F2EDED;
+    padding: 24px;
+}
+.rate-card:hover {
+    background-color: rgba(70, 66, 66, 0.075);
+    cursor: pointer;
+}
+
+.comment-rate {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.profile-name {
+    display: flex;
+    align-items: center;
+    gap:6px;
+}
+
+.rate {
+    display: flex;
+    
+}
+
+.sec-3-comment {
+    font-size: 14px;
+    color: #1e1e1edc;
+}
+
+.profile-image {
+    border-radius: 9999px;
+    width: 40px;
+    height: 40px;
+}
+
+.review {
+    font-size: 10px;
+    color: #757575;
+    font-weight: bolder;
+}
+
+.date {
+    color: #B3B3B3;
+    font-weight: 400;
 }
