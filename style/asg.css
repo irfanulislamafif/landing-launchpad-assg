@@ -1,4 +1,9 @@
 /* header styles */
+  body {
+    background-color: #f5f8ffc9;
+  }
+
+
 
 .header {
     background-image: url(../images/Hero-bg.png);
@@ -174,6 +179,7 @@ li a {
 
 .rate-card {
     border-radius: 14px;
+    background-color: white;
     box-shadow: 5px 5px 5px 5px #F2EDED;
     padding: 24px;
 }
