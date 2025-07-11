@@ -22,7 +22,14 @@ nav ul li {
 li a {
     text-decoration: none;
 }
-
+ a {
+    text-decoration: none;
+    color: white;
+ }
+    a:hover {
+ color: #4E47FF;
+    
+ }
 .logo {
     color: #4E47FF;
     font-size: 34px;
@@ -37,7 +44,9 @@ li a {
     background-color: #4E47FF;
 }
 
-.btn-primary {
+/* btn style */
+
+ .btn-primary {
     font-family: "Raleway", sans-serif;
     color: white;
     font-size: 16px;
@@ -70,4 +79,35 @@ li a {
     font-weight: bold;
     color: #252432;
 }
+/* main style */
+/* section 1 style start */
 
+
+
+.sec-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 159px 116px 141px;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+}
+
+
+.sec-1-img {
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+
+.sec-1-title {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    
+}
+
+.sec-1-sub-title {
+    font-size: 24px;
+    color: #25243274;
+    margin-top: 15px;
+}
